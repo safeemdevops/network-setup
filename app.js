@@ -72,9 +72,9 @@ mongoose.connect(
   { useNewUrlParser: true },
   (err) => {
     if (err) {
-      app.listen(3000);
       console.log(err);
     } else {
+      app.listen(3000);
       
     }
   }
